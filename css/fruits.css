@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px;
+  background-color: rgb(10, 151, 10);
+  color: white;
+  text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 50%;
+  height: auto;
+  margin: 10px 0;
+  display: flex;
+  
+  border: 1px solid;
+}
+.para {
+  margin: 10px;
+  padding: 0 20px;
+  line-height: 1.8;
+}

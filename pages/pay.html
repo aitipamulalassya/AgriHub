@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="/css/pay.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="form">
+            <form action="/action_page.php">
+                <h1 class="form__h1">Make a Payment</h1>
+                <label for="cardno">Card Number:</label>
+
+                <input type="text" id="cardno" name="cardno" placeholder="Enter your card number">
+
+                <label for="Expirydt">Expiry Date:</label>
+
+                <input type="text" id="Expirydt" name="Expirydt" placeholder="MM/YY">
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV">
+                <label for="Name">Name on Card:</label>
+                <input type="text" id="Name" name="Name" placeholder="Enter you name">
+                <label for="mail">Email:</label>
+                <input type="text" id="mail" name="mail" placeholder="Enter your email">
+                <button type="submit">Pay Now</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

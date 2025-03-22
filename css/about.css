@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(10, 151, 10);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 40px;
+}
+.main__h1 {
+  padding: 10px 20%;
+}
+img {
+  width: 100%;
+}
+.row {
+  display: flex;
+
+  gap: 10px;
+}
+.col {
+  flex: 33.33%;
+}

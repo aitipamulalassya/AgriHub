@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(148, 206, 223);
+  max-width: 100%;
+  height: auto;
+}
+button {
+  background-color: peachpuff;
+}
+input,
+label,
+button {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+
+  border-radius: 5px;
+}
+.container {
+  position: relative;
+}
+.form__h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url(/img/pay-removebg-preview\(1\).png);
+  background-repeat: no-repeat;
+  background-size: 48% auto;
+}
+.form {
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px black;
+
+  border: 1px solid black;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  right: 0;
+
+  margin: 55px 15%;
+  padding: 15px;
+}

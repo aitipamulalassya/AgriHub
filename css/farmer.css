@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-size: 1.25rem;
+    padding: .5em;
+    background-color: rgb(10, 151, 10);
+    color: white;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+
+.container{
+    display:flex;
+   flex-wrap: wrap;
+   width: 100%;
+   
+   
+}
+.box{
+    width: 50%;
+   margin: 0.65em 0;
+    display: flex;
+
+    border: 1px solid;
+    
+}
+.para{
+    padding: 0.5em 0;
+    padding-left:2em;
+    line-height: 1.8;
+    width: 50%;
+}
+.img{
+    width:50%;
+
+
+}
+img,p{
+    width: 100%;
+    
+   
+    
+}
+
+
